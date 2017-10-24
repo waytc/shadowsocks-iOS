@@ -9,9 +9,9 @@ pod 'OpenSSL-Universal'
 
 target 'shadowsocks' do
 
-    pod 'Fabric'
-    pod 'Crashlytics'
-    pod 'ZXingObjC'
+pod 'Fabric'
+pod 'Crashlytics'
+
 end
 
 target 'libshadowsocks' do
