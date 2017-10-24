@@ -6,7 +6,11 @@
 pod 'libsodium', '~> 1.0.3'
 pod 'OpenSSL-Universal'
 
+
 target 'shadowsocks' do
+
+pod 'Fabric'
+pod 'Crashlytics'
 
 end
 

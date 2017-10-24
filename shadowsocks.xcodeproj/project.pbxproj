@@ -54,7 +54,6 @@
 		623A7EC71795B0C700DF11DF /* encrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 628693EE16DA2815008B1A26 /* encrypt.c */; };
 		623A7EC81795B0C900DF11DF /* table.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CD119B175E3E17008C4D0C /* table.m */; };
 		623A7EC91795B0D300DF11DF /* local.m in Sources */ = {isa = PBXBuildFile; fileRef = 628693F016DA2816008B1A26 /* local.m */; };
-		623A7ECC1795B15500DF11DF /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CD1199175E3BD7008C4D0C /* libcrypto.a */; };
 		623A7ECF1795B1D800DF11DF /* libshadowsocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 623A7EBA1795AE8000DF11DF /* libshadowsocks.a */; };
 		625E5BBA19EA350F007A5124 /* QRCodeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625E5BB919EA350F007A5124 /* QRCodeWindow.xib */; };
 		625E5BBD19EA36D2007A5124 /* SWBQRCodeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625E5BBC19EA36D2007A5124 /* SWBQRCodeWindowController.m */; };
@@ -91,7 +90,6 @@
 		629AC93518B49676001D2771 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFC17603FFA00411E5F /* GCDWebServerConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		629AC93618B49676001D2771 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFF17603FFA00411E5F /* GCDWebServerRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		629AC93718B49676001D2771 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCC0117603FFA00411E5F /* GCDWebServerResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		62CD119A175E3BD7008C4D0C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CD1199175E3BD7008C4D0C /* libcrypto.a */; };
 		62CD9190178977B500B2CB55 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CD918F178977B500B2CB55 /* MessageUI.framework */; };
 		62D85A8D176DA6FC00FE5575 /* atom.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A4E176DA6FB00FE5575 /* atom.c */; };
 		62D85A8E176DA6FC00FE5575 /* auth.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A50176DA6FB00FE5575 /* auth.c */; };
@@ -121,7 +119,6 @@
 		62D85AB1176DA6FC00FE5575 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A8B176DA6FB00FE5575 /* util.c */; };
 		62D85AB4176DAA7200FE5575 /* polipo.config in Resources */ = {isa = PBXBuildFile; fileRef = 62D85AB2176DAA7200FE5575 /* polipo.config */; };
 		62D85AB5176DAA7200FE5575 /* silence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 62D85AB3176DAA7200FE5575 /* silence.wav */; };
-		62DAB9E0177A11D7003DFFDE /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DAB9DF177A11D7003DFFDE /* Crashlytics.framework */; };
 		62DE796018B2140D00277174 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 62DE795F18B2140D00277174 /* cancel.png */; };
 		62E27E5418C1D03D0086033D /* proxy.pac.gz in Resources */ = {isa = PBXBuildFile; fileRef = 62E27E5318C1D03D0086033D /* proxy.pac.gz */; };
 		62E27E5518C1D03D0086033D /* proxy.pac.gz in Resources */ = {isa = PBXBuildFile; fileRef = 62E27E5318C1D03D0086033D /* proxy.pac.gz */; };
@@ -302,7 +299,6 @@
 		6232047918C08E2A001A30B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ConfigWindow.xib; sourceTree = "<group>"; };
 		6232047B18C08E3A001A30B9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/ConfigWindow.xib"; sourceTree = "<group>"; };
 		623A7EBA1795AE8000DF11DF /* libshadowsocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libshadowsocks.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		62597BD2175FA1D00090E8A6 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "OpenSSL-for-iPhone/lib/libssl.a"; sourceTree = "<group>"; };
 		625E5BB919EA350F007A5124 /* QRCodeWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCodeWindow.xib; sourceTree = "<group>"; };
 		625E5BBB19EA36D2007A5124 /* SWBQRCodeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBQRCodeWindowController.h; sourceTree = "<group>"; };
 		625E5BBC19EA36D2007A5124 /* SWBQRCodeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBQRCodeWindowController.m; sourceTree = "<group>"; };
@@ -361,7 +357,6 @@
 		629AC93B18B49B69001D2771 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		629AC93D18B49B97001D2771 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		629AC93F18B49C33001D2771 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		62CD1199175E3BD7008C4D0C /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "OpenSSL-for-iPhone/lib/libcrypto.a"; sourceTree = "<group>"; };
 		62CD119B175E3E17008C4D0C /* table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = table.m; sourceTree = "<group>"; };
 		62CD119D175E3E23008C4D0C /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
 		62CD918F178977B500B2CB55 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -430,7 +425,6 @@
 		62D85A8C176DA6FC00FE5575 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		62D85AB2176DAA7200FE5575 /* polipo.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polipo.config; sourceTree = "<group>"; };
 		62D85AB3176DAA7200FE5575 /* silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silence.wav; sourceTree = "<group>"; };
-		62DAB9DF177A11D7003DFFDE /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		62DE795F18B2140D00277174 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
 		62E27E5318C1D03D0086033D /* proxy.pac.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = proxy.pac.gz; sourceTree = SOURCE_ROOT; };
 		62E27E5718C1D0CF0086033D /* GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZIP.h; path = GZIP/GZIP/GZIP.h; sourceTree = SOURCE_ROOT; };
@@ -518,12 +512,10 @@
 				621FCC091760400800411E5F /* CFNetwork.framework in Frameworks */,
 				621FCC071760400400411E5F /* MobileCoreServices.framework in Frameworks */,
 				96D80C05176CE1D7006C8078 /* AVFoundation.framework in Frameworks */,
-				62CD119A175E3BD7008C4D0C /* libcrypto.a in Frameworks */,
 				628693EC16DA2706008B1A26 /* SystemConfiguration.framework in Frameworks */,
 				621571A916CF6BCB003D96B4 /* UIKit.framework in Frameworks */,
 				621571AB16CF6BCB003D96B4 /* Foundation.framework in Frameworks */,
 				621571AD16CF6BCB003D96B4 /* CoreGraphics.framework in Frameworks */,
-				62DAB9E0177A11D7003DFFDE /* Crashlytics.framework in Frameworks */,
 				B44AA7A09D2C807FD3E110CB /* libPods-shadowsocks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,7 +525,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				623A7EBB1795AE8000DF11DF /* Foundation.framework in Frameworks */,
-				623A7ECC1795B15500DF11DF /* libcrypto.a in Frameworks */,
 				74CDD679A4FECD27FD65A2DD /* libPods-libshadowsocks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -647,12 +638,9 @@
 				6274846F18B1FD6500A9CDF0 /* CoreMedia.framework */,
 				6274846D18B1FD5C00A9CDF0 /* CoreVideo.framework */,
 				62CD918F178977B500B2CB55 /* MessageUI.framework */,
-				62DAB9DF177A11D7003DFFDE /* Crashlytics.framework */,
 				621FCC081760400800411E5F /* CFNetwork.framework */,
 				621FCC061760400400411E5F /* MobileCoreServices.framework */,
-				62597BD2175FA1D00090E8A6 /* libssl.a */,
 				96D80C04176CE1D7006C8078 /* AVFoundation.framework */,
-				62CD1199175E3BD7008C4D0C /* libcrypto.a */,
 				628693EA16DA26E2008B1A26 /* SystemConfiguration.framework */,
 				621571A816CF6BCB003D96B4 /* UIKit.framework */,
 				621571AA16CF6BCB003D96B4 /* Foundation.framework */,
@@ -1075,6 +1063,7 @@
 				62DAB9DE177A11AD003DFFDE /* ShellScript */,
 				A25FEA565C327E5DD19AC1F7 /* [CP] Embed Pods Frameworks */,
 				5BA19A5F92C59DEE491CAD04 /* [CP] Copy Pods Resources */,
+				41F29CC61F9EDEC100B731B6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1329,6 +1318,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libshadowsocks/Pods-libshadowsocks-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		41F29CC61F9EDEC100B731B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 7573ccddeb69f62086f8fcdec208ab5e9fa685f1 e360327910345fc4ab472e21bf4d4c951a79dd00702d39142e0a38f43017508c";
 		};
 		427098185B36A4553E467132 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

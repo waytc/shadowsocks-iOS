@@ -1,15 +1,22 @@
 PODS:
+  - Crashlytics (3.9.0):
+    - Fabric (~> 1.7.0)
+  - Fabric (1.7.0)
   - libsodium (1.0.12)
   - OpenSSL-Universal (1.0.2.10)
 
 DEPENDENCIES:
+  - Crashlytics
+  - Fabric
   - libsodium (~> 1.0.3)
   - OpenSSL-Universal
 
 SPEC CHECKSUMS:
+  Crashlytics: 64aad5dd97249dd3ff94b979fea140144590cdd3
+  Fabric: e6be012366472553807dada21243c5ab8d904151
   libsodium: 9a8faa5ef2fa0d2d57bd7f7d79bf8fb7c1a9f0ea
   OpenSSL-Universal: 6dc366764e8bf6ca93c60bd767d9103146a3b3b6
 
-PODFILE CHECKSUM: 1ff306279b1e6513e8c47a333d4aef289cfea162
+PODFILE CHECKSUM: c62afdc01ddbaf5577a945e43919b2356ad39997
 
 COCOAPODS: 1.1.1
