@@ -6,7 +6,7 @@ Shadowsocks for iOS and OSX
 iOS
 -----
 [![iOS Icon](https://raw.github.com/shadowsocks/shadowsocks-iOS/master/ios_128.png)](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help)  
-[iOS Version](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help)
+[iOS Version](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help) <--按设置
 
 OSX
 -----
@@ -25,8 +25,5 @@ Please visit [issue tracker](https://github.com/shadowsocks/shadowsocks-iOS/issu
 Mailing list: http://groups.google.com/group/shadowsocks
 
 Also see [troubleshooting](https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting)
-# shadowsocks-iOS
-# shadowsocks-iOS
-# shadowsocks-iOS
-# shadowsocks-iOS
-# shadowsocks-iOS
+
+
