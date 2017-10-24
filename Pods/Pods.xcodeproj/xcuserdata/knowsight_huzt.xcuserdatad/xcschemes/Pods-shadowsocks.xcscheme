@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1EE6E8FCE8BE811567451E42A1277990'
+               BlueprintIdentifier = '6090A92A5C989FFE0B4B2AF929F3CF70'
                BlueprintName = 'Pods-shadowsocks'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-shadowsocks.a'>

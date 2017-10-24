@@ -66,7 +66,6 @@
 		6274847018B1FD6500A9CDF0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274846F18B1FD6500A9CDF0 /* CoreMedia.framework */; };
 		6274847218B1FD6F00A9CDF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274847118B1FD6F00A9CDF0 /* QuartzCore.framework */; };
 		6274847418B1FD7900A9CDF0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274847318B1FD7900A9CDF0 /* ImageIO.framework */; };
-		6274847518B1FD9B00A9CDF0 /* libZXingObjC-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274846218B1FD4200A9CDF0 /* libZXingObjC-iOS.a */; };
 		627A6DF918B47E9300493BBC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A6DF818B47E9300493BBC /* Cocoa.framework */; };
 		627A6E0318B47E9300493BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 627A6E0118B47E9300493BBC /* InfoPlist.strings */; };
 		627A6E0518B47E9300493BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A6E0418B47E9300493BBC /* main.m */; };
@@ -153,7 +152,6 @@
 		EB189A01F66776EC1714F32D /* 3gnet_enable.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = EB1897A8F80969EC7477F89D /* 3gnet_enable.mobileconfig */; };
 		EB189DBA13C945ADF838DF2C /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1892CE8806A5E5632B5714 /* QRCodeViewController.m */; };
 		EB189E4CAA0DEF020070DC84 /* SWBAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB189EE1CF6E8C6C431B87BA /* SWBAboutController.m */; };
-		EB189E8C8B1866196A4DA43B /* about.txt in Resources */ = {isa = PBXBuildFile; fileRef = EB1891FD08E70E9E9DC84AFD /* about.txt */; };
 		EB189FE30A2E13F4D10D59ED /* SWBApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = EB189ABF1BF9729F1E0E8F72 /* SWBApplication.m */; };
 		F30C65694D64C930D97D77F7 /* libPods-ShadowsocksX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2214102F302EF064B54589 /* libPods-ShadowsocksX.a */; };
 /* End PBXBuildFile section */
@@ -172,48 +170,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 623A7EB91795AE8000DF11DF;
 			remoteInfo = libshadowsocks;
-		};
-		6274846118B1FD4200A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25403CB3166A96FA00E13304;
-			remoteInfo = "ZXingObjC-iOS";
-		};
-		6274846318B1FD4200A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25403CC4166A96FA00E13304;
-			remoteInfo = "ZXingObjCTests-iOS";
-		};
-		6274846518B1FD4200A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25404166166AADAC00E13304;
-			remoteInfo = "ZXingObjC-osx";
-		};
-		6274846718B1FD4200A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25404178166AADAC00E13304;
-			remoteInfo = "ZXingObjCTests-osx";
-		};
-		6274846918B1FD4200A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2540439E166ABA0A00E13304;
-			remoteInfo = "OS X Framework";
-		};
-		6274846B18B1FD4A00A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 25403CB2166A96FA00E13304;
-			remoteInfo = "ZXingObjC-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -307,7 +263,6 @@
 		625E5BC319EA3A6B007A5124 /* qrcode.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qrcode.htm; sourceTree = "<group>"; };
 		626C4AD918B1E352003DBE33 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "NSData-Base64/NSData+Base64.h"; sourceTree = SOURCE_ROOT; };
 		626C4ADA18B1E352003DBE33 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "NSData-Base64/NSData+Base64.m"; sourceTree = SOURCE_ROOT; };
-		6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingObjC.xcodeproj; path = "zxing-objc/ZXingObjC.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		6274846D18B1FD5C00A9CDF0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		6274846F18B1FD6500A9CDF0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		6274847118B1FD6F00A9CDF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -464,7 +419,6 @@
 		EB189069EF341E65B5414D00 /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRCodeViewController.h; path = ShadowWeb/QRCodeViewController.h; sourceTree = "<group>"; };
 		EB189071407B3A2A9B4C83CB /* ProfileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileManager.h; sourceTree = "<group>"; };
 		EB1891B68FCBD841C5E461B6 /* About.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = About.md; sourceTree = SOURCE_ROOT; };
-		EB1891FD08E70E9E9DC84AFD /* about.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = about.txt; sourceTree = "<group>"; };
 		EB1892B5027A6B1F1E2CDC12 /* ProfileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileManager.m; sourceTree = "<group>"; };
 		EB1892CE8806A5E5632B5714 /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QRCodeViewController.m; path = ShadowWeb/QRCodeViewController.m; sourceTree = "<group>"; };
 		EB18942F05960F64CC059413 /* SimpleTableViewSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleTableViewSource.h; path = ShadowWeb/SimpleTableViewSource.h; sourceTree = "<group>"; };
@@ -501,7 +455,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				62E27E5C18C1D0F90086033D /* libz.dylib in Frameworks */,
-				6274847518B1FD9B00A9CDF0 /* libZXingObjC-iOS.a in Frameworks */,
 				6274847418B1FD7900A9CDF0 /* ImageIO.framework in Frameworks */,
 				295D10C91F98E8F5002824AE /* NetworkExtension.framework in Frameworks */,
 				6274847218B1FD6F00A9CDF0 /* QuartzCore.framework in Frameworks */,
@@ -550,7 +503,6 @@
 		0422E0111D19462200CCA401 /* ShadowsocksIOS */ = {
 			isa = PBXGroup;
 			children = (
-				621571CF16CF6D1F003D96B4 /* ToolBar */,
 				621571EC16CF7810003D96B4 /* Others */,
 				621571AF16CF6BCB003D96B4 /* Supporting Files */,
 				621571CE16CF6D19003D96B4 /* TabBar */,
@@ -601,7 +553,6 @@
 				6205309718D4443E00887D3E /* shadowsocks_sysconf */,
 				621571A716CF6BCB003D96B4 /* Frameworks */,
 				621571A616CF6BCB003D96B4 /* Products */,
-				EB1891FD08E70E9E9DC84AFD /* about.txt */,
 				CF90AA7314D3F6702EF7BD49 /* Pods */,
 			);
 			sourceTree = "<group>";
@@ -660,7 +611,6 @@
 			isa = PBXGroup;
 			children = (
 				62E27E5618C1D0C00086033D /* gzip */,
-				6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */,
 				626C4AD818B1E338003DBE33 /* base64 */,
 				62D85969176DA63C00FE5575 /* polipo */,
 				621FCBF817603FD600411E5F /* GCDWebServer */,
@@ -716,14 +666,6 @@
 			path = ShadowWeb;
 			sourceTree = "<group>";
 		};
-		621571CF16CF6D1F003D96B4 /* ToolBar */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ToolBar;
-			path = ShadowWeb;
-			sourceTree = "<group>";
-		};
 		621571E216CF74BC003D96B4 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -775,18 +717,6 @@
 				626C4ADA18B1E352003DBE33 /* NSData+Base64.m */,
 			);
 			name = base64;
-			sourceTree = "<group>";
-		};
-		6274845A18B1FD4000A9CDF0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6274846218B1FD4200A9CDF0 /* libZXingObjC-iOS.a */,
-				6274846418B1FD4200A9CDF0 /* ZXingObjCTests-iOS.octest */,
-				6274846618B1FD4200A9CDF0 /* libZXingObjC-osx.a */,
-				6274846818B1FD4200A9CDF0 /* ZXingObjCTests-osx.octest */,
-				6274846A18B1FD4200A9CDF0 /* ZXingObjC.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		627A6DFA18B47E9300493BBC /* Other Frameworks */ = {
@@ -1060,7 +990,7 @@
 				621571A116CF6BCB003D96B4 /* Sources */,
 				621571A216CF6BCB003D96B4 /* Frameworks */,
 				621571A316CF6BCB003D96B4 /* Resources */,
-				62DAB9DE177A11AD003DFFDE /* ShellScript */,
+				62DAB9DE177A11AD003DFFDE /* Run Script */,
 				A25FEA565C327E5DD19AC1F7 /* [CP] Embed Pods Frameworks */,
 				5BA19A5F92C59DEE491CAD04 /* [CP] Copy Pods Resources */,
 				41F29CC61F9EDEC100B731B6 /* ShellScript */,
@@ -1068,7 +998,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6274846C18B1FD4A00A9CDF0 /* PBXTargetDependency */,
 				623A7ECE1795B1C200DF11DF /* PBXTargetDependency */,
 			);
 			name = shadowsocks;
@@ -1155,12 +1084,6 @@
 			mainGroup = 6215719C16CF6BCA003D96B4;
 			productRefGroup = 621571A616CF6BCB003D96B4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6274845A18B1FD4000A9CDF0 /* Products */;
-					ProjectRef = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				621571A416CF6BCB003D96B4 /* shadowsocks */,
@@ -1170,44 +1093,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6274846218B1FD4200A9CDF0 /* libZXingObjC-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libZXingObjC-iOS.a";
-			remoteRef = 6274846118B1FD4200A9CDF0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6274846418B1FD4200A9CDF0 /* ZXingObjCTests-iOS.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ZXingObjCTests-iOS.octest";
-			remoteRef = 6274846318B1FD4200A9CDF0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6274846618B1FD4200A9CDF0 /* libZXingObjC-osx.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libZXingObjC-osx.a";
-			remoteRef = 6274846518B1FD4200A9CDF0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6274846818B1FD4200A9CDF0 /* ZXingObjCTests-osx.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ZXingObjCTests-osx.octest";
-			remoteRef = 6274846718B1FD4200A9CDF0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6274846A18B1FD4200A9CDF0 /* ZXingObjC.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ZXingObjC.framework;
-			remoteRef = 6274846918B1FD4200A9CDF0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		621571A316CF6BCB003D96B4 /* Resources */ = {
@@ -1227,7 +1112,6 @@
 				62D85AB5176DAA7200FE5575 /* silence.wav in Resources */,
 				EB189096BC8B91FA0F60A34C /* 3gnet_disable.mobileconfig in Resources */,
 				EB1890D6331E61914013309F /* polipo_disable.config in Resources */,
-				EB189E8C8B1866196A4DA43B /* about.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1362,13 +1246,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shadowsocks/Pods-shadowsocks-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		62DAB9DE177A11AD003DFFDE /* ShellScript */ = {
+		62DAB9DE177A11AD003DFFDE /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1565,11 +1450,6 @@
 			isa = PBXTargetDependency;
 			target = 623A7EB91795AE8000DF11DF /* libshadowsocks */;
 			targetProxy = 623A7ECD1795B1C200DF11DF /* PBXContainerItemProxy */;
-		};
-		6274846C18B1FD4A00A9CDF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ZXingObjC-iOS";
-			targetProxy = 6274846B18B1FD4A00A9CDF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1770,7 +1650,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShadowWeb/shadowsocks-Prefix.pch";
-				HEADER_SEARCH_PATHS = "./zxing-objc/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ShadowWeb/shadowsocks-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -1801,7 +1681,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShadowWeb/shadowsocks-Prefix.pch";
-				HEADER_SEARCH_PATHS = "./zxing-objc/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ShadowWeb/shadowsocks-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
